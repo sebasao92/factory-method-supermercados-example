@@ -8,6 +8,6 @@ public class Consumo extends Supermercado {
 
     @Override
     public void pagarProductos() {
-        System.out.println("Pagando como model.Consumo");
+        System.out.println("Pagando como Consumo");
     }
 }

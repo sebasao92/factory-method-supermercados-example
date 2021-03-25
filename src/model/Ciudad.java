@@ -8,5 +8,6 @@ public class Ciudad {
 
     public Ciudad(SupermercadoFactory supermercadoFactory){
         this.supermercado = supermercadoFactory.crearSupermercado();
+        supermercado.pagarProductos();
     }
 }
